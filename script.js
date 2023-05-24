@@ -1,6 +1,6 @@
 function upDate(){
     let dateTime = new Date();
-    let hour = dateTime.getHours()
+    let hour = dateTime.getHours() %12 || 12
     let minutes = dateTime.getMinutes()
     let seconds = dateTime.getSeconds()
     let am_or_pm = document.getElementById("am-or-pm")
