@@ -6,9 +6,9 @@ function upDate(){
     let am_or_pm = document.getElementById("am-or-pm")
 
     if(hours>=12){
-        am_or_pm.innerHTML = "PM"
-    }else{
         am_or_pm.innerHTML = "AM"
+    }else{
+        am_or_pm.innerHTML = "PM"
     }
 
     document.getElementById("hours").innerHTML = hour
